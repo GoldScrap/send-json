@@ -10,7 +10,7 @@ import (
 	"time"
 )
 
-func sendScrape(game string, price string, sitename string, siteurl string, seller string) {
+func SendScrape(game string, price string, sitename string, siteurl string, seller string) {
 
 	url := os.Getenv("API_URL")
 
